@@ -1,0 +1,114 @@
+body{
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	color: #e83928;
+	font-size: small;
+	font-family: "Hiragino Maru Gothic Pro", "Lucida Grande", Lucida, Verdana, sans-serif;
+	background: #fff100;
+}
+
+a{
+	color: #f8499a;	
+}
+
+a img{
+	border: none;
+}
+
+h1{
+	margin: 0;
+}
+
+#Maincolumn{
+	width: 300px;
+	min-height: 700px;
+	margin: 0 auto;
+	position:relative;
+	background: url(../images/bg.gif) repeat-y;
+}
+
+#Footer{
+	width: 444px;
+	height: 200px;
+	margin: -20px auto 30px;
+	padding: 0;
+	text-align: center;
+	background: url(../images/footerimages.gif) no-repeat center top;
+}
+
+#Maincolumn p#omikuji{
+	display: block;
+	width: 126px;
+	height: 100px;
+	margin: 20px auto;
+	padding: 30px 10px 0;
+	background: #e83928;
+}
+
+#Maincolumn p.result a{
+	display: block;
+	width: 126px;
+	margin: 20px auto;
+	padding: 30px 10px;
+	color: #fff;
+	text-decoration: none;
+	background: #e83928;
+}
+
+#Maincolumn p.result span{
+	width: 70px;
+	font-size: 70px;
+	line-height: 100%;
+}
+
+#Option{
+	position:absolute;
+	top: 240px;
+	left: 239px;
+	width: 260px;
+	color: #000;
+	text-align: left;
+	line-height: 120%;
+}
+
+#Option #Items{
+	float: left;
+	width: 160px;
+	padding: 10px;
+	background: #fff;
+	border: 4px solid #e83928;
+}
+
+#Option #button{
+	float: left;
+	width: 38px;
+}
+
+#Option dt{
+	width: 95%;
+	margin-bottom: 10px;
+}
+
+#Option dd{
+	margin: 0 0 5px;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.Clock{
+	width: 265px;
+	height: 175px;
+	position:absolute;
+	top:160px;
+	left: -205px;
+	background: url(../images/img_clock.gif) no-repeat right;
+}
+
+.Clock p{
+	width: 150px;
+	margin: 30px 0 0 35px;
+	color: #000;
+	text-align: left;
+	line-height: 120%;
+}
