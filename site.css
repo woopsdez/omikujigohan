@@ -57,6 +57,10 @@ h1{
 }
 
 #Maincolumn p.result span{
+	-webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  white-space: nowrap;
 	width: 70px;
 	font-size: 70px;
 	line-height: 100%;
